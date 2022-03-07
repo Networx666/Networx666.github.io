@@ -1,0 +1,37 @@
+:root {
+  // --color: green;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  height: 700px;
+  width: 700px;
+  border: 1px solid;
+}
+
+.square {
+  // border: 0.01px solid;
+  width: auto;
+  height: auto;
+  //transition: all 1s ease-in-out;
+  //border: 0.1px solid;
+}
+
+/*.square:hover {
+  background-color: var(--color);
+  transition: all;
+}*/
